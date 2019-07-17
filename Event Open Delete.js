@@ -8,9 +8,6 @@ export default class HeaderSpan extends Component {
         <Container style ={styles.container}>
         <Header span androidStatusBarColor="#0A7B4A" style={{display:'none'}}
         style={{backgroundColor:'#0A7B4A'}}>
-        {/* <Image 
-          source={{uri:'https://cdn.pixabay.com/photo/2015/08/14/07/46/gradient-888101_960_720.jpg'}} 
-          style={{flex:1}} / > */}
           <Left style={{flex:1}}>
             <Button transparent style={{flex:1,paddingBottom:35,alignContent:'center',justifyContent:'center'}}>
               <Icon name="arrow-back" />
@@ -81,11 +78,5 @@ const styles = ({
     shadowColor: "grey",
     shadowOpacity: 0.1,
     shadowRadius: 5
-    },
-
-    button:{
-      color:'',
-
     }
-
     });
